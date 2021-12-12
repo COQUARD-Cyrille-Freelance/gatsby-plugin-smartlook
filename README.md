@@ -1,14 +1,14 @@
-# gatsby-plugin-smartlook
+# gatsby-plugin-smartlook-tracking
 
 Easily add Smartlook Analytics to your Gatsby site.
 
 ## Install
 
-`yarn add gatsby-plugin-smartlook`
+`yarn add gatsby-plugin-smartlook-tracking`
 
 or
 
-`npm i gatsby-plugin-smartlook --save`
+`npm i gatsby-plugin-smartlook-tracking --save`
 
 ## How to use
 
@@ -16,7 +16,7 @@ or
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-smartlook`,
+    resolve: `gatsby-plugin-smartlook-tracking`,
     options: {
       includeInDevelopment: true, // optional parameter to include script in development
       id: YOUR_SMARTLOOK_ID,

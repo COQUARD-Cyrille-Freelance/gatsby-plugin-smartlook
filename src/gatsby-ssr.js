@@ -8,7 +8,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     const { id } = pluginOptions;
     return setPostBodyComponents([
       <script
-        key={`gatsby-plugin-smartlook`}
+        key={`gatsby-plugin-smartlook-tracking`}
         dangerouslySetInnerHTML={{
           __html: `
                 window.smartlook||(function(d) {

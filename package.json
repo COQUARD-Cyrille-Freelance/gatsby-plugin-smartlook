@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-smartlook",
-  "version": "1.1.1",
+  "name": "gatsby-plugin-smartlook-tracking",
+  "version": "1.0.0",
   "description": "Gatsby plugin to add Smartlook analytics to your site.",
   "keywords": [
     "gatsby",
@@ -28,5 +28,9 @@
   },
   "dependencies": {
     "babel-runtime": "6.26.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/COQUARD-Cyrille-Freelance/gatsby-plugin-smartlook/issues"
+  },
+  "homepage": "https://github.com/COQUARD-Cyrille-Freelance/gatsby-plugin-smartlook#readme"
 }
